@@ -24,12 +24,12 @@ Run Ollama models on Google Colab's free T4 GPU and expose a compatible API endp
 
 ## 📚 Supported Models
 
-- deepseek-r1:8b
-- llama3.2:3b
-- qwen2.5:7b
+- deepseek-r1
+- llama3.2
+- qwen2.5
 - mistral
-- qwen2.5-coder:7b
-- mixtral:8x7b
+- qwen2.5-coder
+- mixtral
 - *Any other Ollama-compatible model*
 
 ## 🔧 API Usage
@@ -40,7 +40,6 @@ curl -X POST http://<your-api-url>/api/generate \
   -H "Content-Type: application/json" \
   -d '{"model":"llama3.2:3b","prompt":"Hello, how are you?"}'
 ```
-
 
 ## ⚠️ Important Notes
 
@@ -60,7 +59,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - [Ollama](https://ollama.ai/) for the amazing model serving framework
 - [Cloudflare](https://www.cloudflare.com/) for the tunnel service
-- Google Colab for providing free GPU access
+- [Google Colab](https://colab.research.google.com) for providing free GPU access
 
 ## 👤 Author
 
